@@ -1,0 +1,185 @@
+body {
+    background: white; 
+}
+
+header {
+    width:100%;
+}
+
+#win {
+    border:2px solid teal;
+    
+}
+
+#lose {
+    border:2px solid red;
+}
+
+form{
+    display:flex; 
+}
+
+li{
+    list-style-type: none;
+}
+input{
+    margin-left:10px;
+}
+
+.display-4 {
+    color: white; 
+    font-weight: bolder; 
+}
+
+.lead { 
+    color: white; 
+    font-weight: bolder; 
+}
+
+.btn-dark {
+    justify-content: center; 
+    margin: 10px; 
+}
+
+#button-display{
+    padding-left:0px !important;
+    width:100%;
+}
+
+.container { 
+    background: white; 
+    padding: 50px; 
+}
+
+#message{
+    width:100%;
+}
+.card{
+    margin-top:5%;
+    text-align: center;
+    border: none;
+}
+
+.card-title{
+    margin-bottom: 10px;
+}
+
+.timer { 
+    color: black; 
+    float:right;
+    text-align: right;
+    align-content: right;
+    padding:10px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+.highScore{
+    color: #4B0082; 
+    float:left;
+    text-align: left;
+    align-content: left;
+    padding: 10px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+.question-display { 
+    color:black;
+    font-weight: bold; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 24px;
+}
+
+#resetScores, #goBack, #start, #tryAgain, .answerButton{
+    text-align: center;
+    background: #4B0082;
+    color: white; 
+    border-radius: 5px;
+    width: auto; 
+    margin: 10px ; 
+    padding:5px 15px 5px 15px;
+}
+
+#resetScores, #goBack, #tryAgain, .answerButton{
+    margin: 10px 0px 10px 0px; 
+    
+}
+
+.areYouRight{
+    font-size:20px;
+    font-weight: bold;
+}
+#submitInitials{
+    display: inline; 
+    margin-left:10px; 
+    background:#4B0082; 
+    color:black; 
+    border-radius: 5px;
+}
+.answerButton:hover{
+    opacity: 0.6
+}
+#hsTitle{
+    font-weight: bold;
+}
+
+#userInput{
+    border:1px solid lightgrey;
+    
+}
+#hsArray{
+    padding: 5px 0px 0px 0px;
+}
+#hsArray li{
+    border:1px solid lightgrey;
+    background:#ede1f7;
+    margin: 10px 0px 0px 0px;
+    padding:2px 2px 2px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color:black !important;
+    
+    width:100%;
+}
+    
+#hsArray li:hover{
+    opacity: 80%;
+}
+
+@media only screen and (max-width: 800px) {
+    #button-display{
+        width:75%;
+    }
+  }
+
+  @media only screen and (max-width: 520px) {
+    #button-display{
+        width:100%;
+    }
+    .card-title{
+        font-size: 36px;
+    }
+    form{
+        display: block;
+        margin:10px 0px 0px 0px;
+    }
+        #submitInitials{
+            
+            margin-top:10px; 
+    
+        }
+        .question-display {
+            font-size: 20px;
+        }
+        .card-body{
+            padding:0px;
+        }
+        #removePadding{
+            padding: 0px !important;
+        }
+
+        #win, #lose{
+            margin:5px 0px 5px 0px;  
+        }
+      .card-text{
+          margin: 0px;
+      }
+    
+  }

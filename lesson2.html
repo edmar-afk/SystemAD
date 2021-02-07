@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .button {
+          border-radius: 4px;
+          background-color: #f4511e;
+          border: none;
+          color: #FFFFFF;
+          text-align: center;
+          font-size: 18px;
+          padding: 20px;
+          width: 100px;
+          transition: all 0.5s;
+          cursor: pointer;
+          margin: 5px;
+        }
+        
+        .button span {
+          cursor: pointer;
+          display: inline-block;
+          position: relative;
+          transition: 0.5s;
+        }
+        
+        .button span:after {
+          content: '\00bb';
+          position: absolute;
+          opacity: 0;
+          top: 0;
+          right: -20px;
+          transition: 0.5s;
+        }
+        
+        .button:hover span {
+          padding-right: 25px;
+        }
+        
+        .button:hover span:after {
+          opacity: 1;
+          right: 0;
+        }
+        </style>
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <div id="wrapper">
+        <div class="overlay"></div>
+
+        <!-- Sidebar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+                <li class="sidebar-brand">
+                </li>
+                <li>
+                    <a href="index.html"><i class="fa fa-fw fa-home"></i>Introduction</a>
+                </li>
+                <li>
+                    <a href="lesson1.html"><i class="fa fa-fw fa-folder"></i>Lesson 1</a>
+                </li>
+                <li>
+                    <a href="lesson2.html"><i class="fa fa-fw fa-folder"></i>Lesson 2</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <button type="button" class="hamburger is-closed animated fadeInLeft" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+                <span class="hamb-middle"></span>
+                <span class="hamb-bottom"></span>
+            </button>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <h1 class="page-header">OPERATING SYSTEMS</h1>
+
+                        <center>
+                            <h3>Supporting Administration</h3>
+                        </center>
+                        <p>
+                            • Microsoft Windows
+                            Microsoft Windows, commonly referred to as Windows, is a group of several proprietary
+                            graphical operating system families, all of which are developed and marketed by Microsoft.
+                            Each family caters to a certain sector of the computing industry. <br> <br>
+
+                            o History: <a
+                                href="http://www.worldowindows.com/wintime.html">http://www.worldowindows.com/wintime.html</a>
+                            <br> <br>
+
+                            • 1975 - Microsoft Formed “April 4, 1975, Albuquerque, New Mexico, United States” <br>
+                            • 1980 - Xenix released by Microsoft: “A discontinued version of the Unix operating system
+                            <br>
+                            for various microcomputer platforms, licensed by Microsoft from AT&T Corporation in the late
+                            1970s.”<br>
+                            • 1981 - MS-DOS 1.0 released with new IBM PC<br>
+                            • 1985 - Windows 1.0 released<br>
+                            • 1992 - Windows 3.1 released<br>
+                            • 1993 - Windows NT 3.1 released (over 6 million lines of code)<br>
+                            • 1995 - Windows NT 3.5.1 released<br>
+                            • Windows 95 released<br>
+                            • 1996 - Windows NT 4.0 released<br>
+                            • 1998 - Windows 98 released<br>
+                            • 1998 - Microsoft announces Windows NT 5.0 will be renamed Windows 2000<br>
+                            • 2000 - release of windows 2000 (aka NT 5.0)<br>
+                            • 2001 - release of windows XP (aka NT 5.1)<br>
+                            • 2003 - release of windows 2003 server<br>
+                            • 2007 - release of windows Vista (SELinux Project apply)<br>
+                            • 2008 - release of windows 2008 server<br>
+                            • 2009 - release of windows 7<br>
+                            • 2013 - release of windows 8, 8.1, Server 2012<br>
+                            • 2015 - release of windows 10<br><br> <br>
+                            <a href="quiz/lesson2/index.html"><button class="button"><span>QUIZ </span></button></a> <br> <br> <br>
+                            <center>
+                                <h4>SYSTEM MAINTENANCE</h4>
+                            </center>
+                            <b>Objectives</b><br><br>
+                            o Post Implementation activities <br>
+                            o System Maintenance: <br> <br>
+
+                            <b>• Preventive Maintenance. <br>
+                                • Predictive Maintenance. <br>
+                                • Corrective Maintenance. <br> <br></b>
+
+                            <b>1. Preventive Maintenance:</b> Schedule of planned maintenance actions aimed at the
+                            prevention of breakdowns and failures. <br>
+                            • Main goal is to preserve and enhance equipment reliability. <br>
+                            • Anything which increases life of equipment, and helps it runs more efficiently. <br>
+                            • Benefits of PM: <br>
+                            1. Increases life of equipment <br>
+                            2. Reduces failures and breakdowns. <br>
+                            3. Reduces costly down time. <br>
+                            4. Decreases cost of replacement. <br> <br>
+                            • Only trained, qualified maintenance personnel should perform PM’s. <br> <br>
+
+                            <b>Predictive Maintenance (PdM):</b> Techniques that help determine the
+                            condition of in-service equipment in order to predict when maintenance should be performed.
+                            <br>
+                            • Main goal of the Predictive Maintenance is minimize disruption of normal system
+                            operations, while allowing for budgeted, scheduled repairs. <br>
+                            • Benefits of Predictive Maintenance: <br>
+                            1. Provides increased operational life. <br>
+                            2. Results in decrease of downtime. <br>
+                            3. Allows for scheduled downtime. <br>
+                            4. Allows for money to be budgeted for repairs. <br>
+                            5. Lowers need for extensive parts inventory. <br><br>
+
+                            • Predictive maintenance can be done by a contracted, specialized technician. <br> <br>
+
+                            <b>3. Corrective Maintenance:</b> Repair of equipment/machinery in order to bring it back to
+                            original operational condition. <br>
+                            • It can be done by the system expert. <br> <br>
+
+                            <b>Post Implementation Activities</b> <br>
+                            • The goal of the post implementation activities is to institutionalize the use of the new
+                            system – that is, to make it the normal, accepted, routine way of performing the business
+                            processes. <br>
+                            • Three key post implementation activities are: <br>
+                            1. System Support <br>
+                            2. System Maintenance <br>
+                            3. Project support <br> <br>
+
+                            <b>1. System Support:</b> Once the system is installed and performed the change management
+                            activities, the system is officially turned over to the operational group. <br> <br>
+
+                            • Operational group is responsible for the operation of the system, whereas the project team
+                            is responsible for the development of the system.<br>
+                            • Operational group peoples are closely involved in the installation activities.<br>
+                            • Providing system support means helping the users to use the system.<br>
+                            • Providing answers to questions and helping users understand how to perform a certain
+                            function; this is as on demand training.<br>
+                            • Online support is the most common form of on demand training.<br>
+                            • FAQs – enable users to find answer without contacting a person.<br>
+                            • Most organization provides a help desk – to talk with a person who can answer queries.<br>
+                            • Help desk can be operated by level-1 support staff – who have very broad computer skills
+                            and are able to respond wide range of requests.<br>
+                            • Level 2 peoples are application expert people can be supporting to run the help desk with
+                            level 1 people.<br> <br> <br>
+
+                            <b>2. System Maintenance</b> <br>
+                            • Is the process of refining the system to make sure it continues to meet business needs.
+                            <br>
+                            • Over a systems' lifetime more money and efforts are devoted to system maintenance than to
+                            the initial development of the system, because system continues to change and evolve as it
+                            is used. <br>
+                            • Three types of Maintenance: <br>
+
+                            1. Preventive Maintenance (PM) – Greasing, Oil, filters. <br>
+                            2. Predictive Maintenance (PDM) - Inspection. <br>
+                            3. Corrective Maintenance. – Repairs. <br> <br> <br>
+
+
+                            <b>3. Project Support </b> <br>
+                            It provides an administrative role in a PRINCE2 project environment. On smaller projects
+                            this role can be fulfilled by the Project Manager , but larger projects generally require a
+                            full Project Support Team. Project Support can be anything from advice and assistance to
+                            administrative services such as collecting and compiling data. A particularly important
+                            support feature is Configuration Management which controls the assets of the project. <br>
+                            <br>
+
+                            The duties associated with the PRINCE2 Project Support role normally defaults to the Project
+                            Manager. However, where appropriate, the Project Manager can delegate some of this
+                            responsibility. <br>
+                            Responsibilities Project Support responsibilities that may be delegated include: <br>
+                            • Administrative services <br>
+                            • Advice and guidance on project management tools or configuration management <br>
+                            • Specialist functions like planning or risk management. <br>
+                            • Administering configuration management procedures of the Change Control Approach .
+                            In some organizations, a temporary “project office” may be set up to supply some or all
+                            Project Support functions for a particular project. <br>
+                            Project Support and Project Assurance roles should be undertaken by separate individuals to
+                            ensure that Project Assurance is independent. <br> <br>
+
+                            Operating Systems Supporting Administration <br> <br>
+                            <b>• 1982 - Sun Microsystems founded. Sun Microsystems, Inc.,</b> former American
+                            manufacturer of computer workstations, servers, and software. In 2010 the company was
+                            purchased by Oracle Corporation, a leading provider of database management systems. <br>
+                            <br>
+
+                            Founding And Growth <br> <br>
+
+                            Andreas Bechtolsheim, William Joy, Vinod Khosla, and Scott McNealy founded Sun Microsystems,
+                            Inc., in 1982 for the purpose of selling low-cost high-performance desktop computers running
+                            the UNIX operating system. Those computer workstations found immediate acceptance among
+                            engineers, software developers, and scientists who benefited from having dedicated machines
+                            rather than sharing more expensive minicomputers or mainframe computer systems. <br> <br>
+
+                            Unlike its Fortune 500 competitors, Sun did not have revenue from other sources to fund
+                            development of its computer workstations. This meant that the company needed hundreds of
+                            millions of dollars in start-up investments, as well as large purchase agreements, in order
+                            to develop a hardware-manufacturing infrastructure and to attract top-flight hardware and
+                            software engineers. In 1983 the company signed a multimillion-dollar original equipment
+                            manufacturer (OEM) agreement with Computer vision Corporation, a designer of computer-aided
+                            design and engineering programs. This was the first of many large OEM agreements through
+                            which Sun built computers for companies that sold the workstations under their own labels.
+                            <br> <br> <br>
+
+                            <b>• PC Based Unix - solaris, SCO Unix, FreeBSD, NetBSD</b>The UNIX operating system was
+                            created more than four decades ago at AT&T’s Bell Laboratories. With continuous development
+                            since its inception, UNIX has made its presence from tiny embedded devices to servers and
+                            supercomputers. This article provides a brief history, philosophy, specification of UNIX and
+                            discusses the top ten operating systems of the UNIX systems. <br> <br>
+
+                            In terms of evaluation of operating systems, UNIX has a long history. In the 1960s, MIT
+                            along with General Electric (GE) and AT&T’s Bell Laboratories worked on a co-operative
+                            research project to create a new operating system called MULTICS (Multiplexed Operating and
+                            Computing System). Multics was conceived as a general purpose time-sharing utility to
+                            support electricity and telephone services. It had numerous features; few of them are high
+                            availability, hierarchical file system, security to modular design (allowing adding
+                            resources while the system is running), command processor (like shell), dynamic linking,
+                            online reconfiguration. <br> <br>
+
+                            Multics was developed initially for the GE-645 mainframe and later Honeywell continued it on
+                            its Honeywell 6180 machines. However, Bell Labs pulled out of the MULTICS project and
+                            started development of a new operating system for PDP-7 machine. Ken Thompson (one of the
+                            Multics developers) joined with Dennis Ritchie and team members to develop new multi-tasking
+                            operating system called UNICS (Uniplexed Operating and Computing System). This is considered
+                            the first UNIX operating system. UNIX was designed to be portable, multi-tasking and
+                            multi-user in a time-sharing configuration. It is said that the person who coined the word
+                            UNIX is Brian Kernighan. The word UNIX is pronounced as yoo-niks, not yoo-neeks or
+                            yoo-nucks. In 1972, UNIX was rewritten in the C programming language after porting the code
+                            from assembly language making UNIX a much more portable. <br> <br>
+
+                            The AT&T’s Bell Labs licensedUNIXto outside parties from the late 1970s.UNIX source code was
+                            made available for free. This opened gates to have different flavors of UNIX operating
+                            systems based on the needs. There are primarily two base versions of UNIX available: System
+                            V and Berkley Software Distribution (BSD). The majority of all UNIX flavors are built on one
+                            of these two versions. In the early 1980s, the impact of Unix in academic circles led to
+                            large-scale adoption ofUNIXby commercial vendors including HP-UX, Solaris, AIX, and Xenix.
+                            With more than four decades of constant development, UNIX emerged as a successful operating
+                            system running from tiny embedded devices, servers, desktop to supercomputers. <br> <br>
+
+                            Solaris is a UNIX based operating system originally developed by Sun Microsystems with roots
+                            in the BSD operating system and AT&T System V. The earlier operating system of Sun
+                            Microsystems was known as SunOS. The first version of SunOS basing on BSD roots was
+                            published in 1982. The Sun introduced scalable processor architecture (SPARC) chip which
+                            allowed creating powerful, reliable yet inexpensive machines.Up to the version 3.x, this
+                            operating system was called SunOS, and with the version 4.0, Sun called SunOS with Solaris.
+                            The Solaris 2.0 release (SunOS 5.0) basing on the UNIX system V release 4 (replacing BSD)
+                            was published in 1992. Sun released Solaris 2.4, supporting both SPARC and x86 systems from
+                            a unified source code base. OpenSolaris – a project initiated by Sun Microsystems,
+                            discontinued after the acquisition by Oracle. In September 2017, it is rumored that Oracle
+                            had laid off the Solaris core development staff, indicating Oracle’s non-interest in Solaris
+                            development. <br> <br>
+
+                            FreeBSD is a free open-source operating system roots back to original Berkeley Software
+                            Distribution (BSD). FreeBSD maintains a feature-complete operating system with the
+                            full-fledged kernel, device drivers, utilities, and documentation. Two engineers William
+                            Jolitz and Lynne Jolitz ported BSD to the Intel-based 80386 processors and called it with
+                            name 386BSD. However, a group of 386BSD users created a new branch and named it with
+                            FreeBSD. The first version of FreeBSD was released in November 1993. It is said that Apple
+                            OS is based on FreeBSD. As a general-purpose operating system, FreeBSD is used in various
+                            scenarios as both desktop and server environments. <br> <br>
+
+                            NetBSD is an open source operating system based out of legacy 4.4BSD and 386BSD code base.
+                            Its motto is a highly portable operating system. Armed with a specialized hardware
+                            abstraction layer, the NetBSD splits its device drivers into machine dependent and machine
+                            independent components hiding the hardware access details. NetBSD supported Symmetric
+                            multiprocessing from its release 2.0 in year 2004.Thanks to its code clarity, careful
+                            design, and portability features, NetBSD being used in large-scale server systems, desktop
+                            systems, handheld devices and in embedded systems. <br> <br>
+
+                            Xinuos OpenServer, previously SCO UNIX and SCO Open Desktop, is a closed source computer
+                            operating system developed by Santa Cruz Operation, later acquired by SCO Group, and now
+                            owned by Xinuos. Early versions of OpenServer were based on UNIX System V, while the later
+                            OpenServer 10 is based on FreeBSD. Xenix is a discontinued version of a UNIX based operating
+                            system licensed by Microsoft in the late 1970s. Impressed by UNIX popularity, Microsoft
+                            purchased a license from AT&T. It may be surprised to some people to know that Microsoft
+                            once owned UNIX rights. However Microsoft was not involved in selling Xenix directly to the
+                            customers rather it licensed to companies like IBM, Intel, SCO etc to port the operating
+                            system on their proprietary processors. Unable to face the competition after break up with
+                            AT&T, Microsoft decided to transfer the ownership to SCO who released Xenix with new brand
+                            name SCO UNIX. SCO UNIX did not sustain after its last version V.2.3.4, released in 1991.
+                            <br> <br> <br>
+
+                            <b>• Linux - Linus Torvalds (Finland) 1991. Free/Open.</b>Linux began in 1991 as a personal
+                            project by Finnish student Linus Torvalds: to create a new free operating system kernel. The
+                            resulting Linux kernel has been marked by constant growth throughout its history. Since the
+                            initial release of its source code in 1991, it has grown from a small number of C files
+                            under a license prohibiting commercial distribution to the 4.15 version in 2018 with more
+                            than 23.3 million lines of source code, not counting comments, under the GNU General Public
+                            License v2. <br> <br> <br>
+
+                            <b>• Red Hat Linux – Commercial Version</b>Red Hat Enterprise Linux (often abbreviated to
+                            RHEL) is a Linux distribution developed by Red Hat for the commercial market. Red Hat
+                            Enterprise Linux is released in server versions for x86-64, Power ISA, ARM64, and IBM Z and
+                            a desktop version for x86-64. All of Red Hat's official support and training, together with
+                            the Red Hat Certification Program, focuses on the Red Hat Enterprise Linux platform. <br>
+                            <br>
+
+                            The first version of Red Hat Enterprise Linux to bear the name originally came onto the
+                            market as "Red Hat Linux Advanced Server". In 2003, Red Hat rebranded Red Hat Linux Advanced
+                            Server to "Red Hat Enterprise Linux AS" and added two more variants, Red Hat Enterprise
+                            Linux ES and Red Hat Enterprise Linux WS. <br> <br>
+
+                            Red Hat uses strict trademark rules to restrict free re-distribution of their officially
+                            supported versions of Red Hat Enterprise Linux but still freely provides its source code.
+                            Third-party derivatives can be built and redistributed by stripping away non-free components
+                            like Red Hat's trademarks. Examples include community-supported distributions like CentOS
+                            and Scientific Linux and commercial forks like Oracle Linux. <br> <br>
+
+                            Red Hat Enterprise Linux Server subscription is available at no cost for development
+                            purposes. Developers need to register for the Red Hat Developer Program and agree to license
+                            terms forbidding production use. This free developer subscription was announced on March 31,
+                            2016. <br> <br>
+
+                            There are also "Academic" editions of the Desktop and Server variants. They are offered to
+                            schools and students, are less expensive, and are provided with Red Hat technical support as
+                            an optional extra. Web support based on the number of customer contacts can be purchased
+                            separately. <br> <br>
+
+                            It is often assumed the branding ES, AS, and WS stand for "Entry-level Server", "Advanced
+                            Server" and "Work Station", respectively. The reason for this is that the ES product is
+                            indeed the company's base enterprise server product, while AS is the more advanced product.
+                            However, nowhere on its site or in its literature does Red Hat say what AS, ES, and WS stand
+                            for. <br> <br>
+
+                            In Red Hat Enterprise Linux 5 there are new editions that substitute former Red Hat
+                            Enterprise Linux AS/ES/WS/Desktop: <br>
+
+                            • Red Hat Enterprise Linux Advanced Platform (former AS)<br>
+                            • Red Hat Enterprise Linux (former ES) (limited to two CPUs)<br>
+                            • Red Hat Enterprise Linux Desktop with Workstation and Multi-OS option<br>
+                            • Red Hat Enterprise Linux Desktop with Workstation option (former WS)<br>
+                            • Red Hat Enterprise Linux Desktop with Multi-OS option<br>
+                            • Red Hat Enterprise Linux Desktop (former Desktop)
+                            Red Hat had also announced its Red Hat Global Desktop Linux edition "for emerging markets".
+                            RHEL 4, 3, and prior releases had four variants:<br>
+                            • Red Hat Enterprise Linux AS for mission-critical/enterprise computer systems.<br>
+                            • Red Hat Enterprise Linux ES for supported network servers<br>
+                            • Red Hat Enterprise Linux WS for technical power user enterprise desktops for
+                            high-performance computing<br>
+                            • Red Hat Desktop for multiple deployments of single-user desktops for enterprises.<br> <br>
+                            <br>
+
+                            <b>• Debian, Ubuntu, another popular version of Linux (freeware)</b> <br>
+                            <b>Debian</b> <br><br>
+                            If you are still a fan of the old sysvinit, then Devuan might just do the trick for you.
+                            Devuan is a Debian fork that is designed to be as close to Debian as conceivably possible.
+                            Its latest version is Beowulf 3.0.0 that is based on Debian 10. In addition, Devuan provides
+                            support for the ARM community with bootable ARM images. <br><br> <br>
+
+                            <b>Ubuntu</b> <br> <br>
+                            Arguably one of the most widely used free and opensource Linux distro especially by desktop
+                            enthusiasts, Ubuntu requires no introduction. Since its initial release by Canonical in
+                            2004, Ubuntu has made huge leaps to extend its support to servers, IoT devices, and cloud
+                            technologies. <br> <br>
+
+                            The latest version, Ubuntu 20.04 LTS, dubbed Focal Fossa, is its latest Long Term Release
+                            (LTS) and will receive support until April 2025. Ubuntu 20.04 ships with a brand new Yaru
+                            theme which has 3 variants (Dark, light, and standard), GNOME 3.36 with new-look polished
+                            icons, improved ZFS support, fractional scaling for enhanced displays, and multiple default
+                            Apps such as Firefox, Thunderbird, and LibreOffice suite. <br> <br>
+
+                            Most notable is Ubuntu’s push for snaps over the traditional APT package manager. A snap is
+                            a software package that ships with all the libraries and dependencies required to function
+                            as expected. Though not intended to entirely replace debs, snaps have managed to resolve the
+                            issue with software availability. <br> <br>
+                            
+                            As opposed to a Debian package that requires dependencies from external sources, a snap
+                            package comes pre-packaged with all the dependencies and can be readily installed on every
+                            Ubuntu release that supports snap (Ubuntu 16.04 and later versions). <br><br><br>
+
+                            <a href="quiz/lesson2.1/index.html"><button class="button"><span>QUIZ </span></button></a>
+                        </p>
+                        <br> <br> <br> <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

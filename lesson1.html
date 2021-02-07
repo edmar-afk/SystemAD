@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .button {
+          border-radius: 4px;
+          background-color: #f4511e;
+          border: none;
+          color: #FFFFFF;
+          text-align: center;
+          font-size: 18px;
+          padding: 20px;
+          width: 100px;
+          transition: all 0.5s;
+          cursor: pointer;
+          margin: 5px;
+        }
+        
+        .button span {
+          cursor: pointer;
+          display: inline-block;
+          position: relative;
+          transition: 0.5s;
+        }
+        
+        .button span:after {
+          content: '\00bb';
+          position: absolute;
+          opacity: 0;
+          top: 0;
+          right: -20px;
+          transition: 0.5s;
+        }
+        
+        .button:hover span {
+          padding-right: 25px;
+        }
+        
+        .button:hover span:after {
+          opacity: 1;
+          right: 0;
+        }
+        </style>
+
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <div id="wrapper">
+        <div class="overlay"></div>
+
+        <!-- Sidebar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+                <li class="sidebar-brand">
+                </li>
+                <li>
+                    <a href="index.html"><i class="fa fa-fw fa-home"></i>Introduction</a>
+                </li>
+                <li>
+                    <a href="lesson1.html"><i class="fa fa-fw fa-folder"></i>Lesson 1</a>
+                </li>
+                <li>
+                    <a href="lesson2.html"><i class="fa fa-fw fa-folder"></i>Lesson 2</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <button type="button" class="hamburger is-closed animated fadeInLeft" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+                <span class="hamb-middle"></span>
+                <span class="hamb-bottom"></span>
+            </button>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <h1 class="page-header">SYSTEM ADMINISTRATION OF DATACENTERS</h1>
+                        <img src="img/lesson1.png" width="100%" alt="">
+                        <center>
+                            <h3>DUTIES OF A DATACENTER ENGINEER</h3>
+                        </center>
+                        <p>
+                            <b>
+                                • Install, Builds, upgrades, configures, provisions, and installs servers from scratch
+                                spanning several different platforms and maintain servers as our customers grow. <br>
+                                • Performs basic monitoring, troubleshooting and repair of all aspects of servers,
+                                operating systems and hardware. <br>
+                                • Responds to customer impacting events. Upgrades and downgrades servers. Removes
+                                hardware from server environments. <br>
+                                • Monitors all Electrical, Mechanical and Emergency Generator systems and reports issues
+                                as appropriate as long as the Facility technician is away. <br>
+                                • Performs routine maintenance activities on customer server environments. <br>
+                                • Assists in the planning of server environments. <br>
+                                • Participate in analyzing and summarizing Data Center technology and critical services
+                                engineering agreements. <br>
+                                • Collaborate with other teams to ensure technology solutions and business needs
+                                align.<br>
+                                • Contribute to web site design and maintenance for Vendor Management team. <br>
+                                • Support internal and external team communication plans, for instance coordinating
+                                status reporting across the team, planning team building activities, etc. <br>
+                                • Notify critical events to customers, MD's, service owners, Call Center, and (NOC)
+                                Network Operation center. <br>
+                                • Respond action and resolve requests / faults logged both internally and externally,
+                                and escalation of problems and issues to the Operations Team. <br>
+                                • Report broken servers. <br>
+                                • Active monitoring of all servers. <br>
+                                • Work with Customer Operation Engineers in configuring customer requirements. <br>
+                                • Work closely with 3rd party service providers. <br> <br> <br>
+                            </b>
+                        </p>
+
+                        <h4>
+                            <center>TYPES OF ADMINISTRATORS/USERS</center>
+                        </h4><br>
+                        <p>
+                            In a larger company, following may all be separate positions within a computer support or
+                            Information Services (IS) department. In a smaller group they may be shared by a few System
+                            Administrators, or even a single person. <br> <br>
+
+                            • Database Administrator <br>
+                            • Network Administrator <br>
+                            • Security Administrator <br>
+                            • Web Administrator <br>
+                            • Technical support <br>
+                            • Computer operator <br>
+                            <br> <br>
+
+                            A <b>database administrator</b> (DBA) maintains a database system, and is responsible for
+                            the
+                            integrity of the data and the efficiency and performance of the system. <br> <br>
+
+                            A <b>network administrator</b> maintains network infrastructure such as switches and
+                            routers, and
+                            diagnoses problems with these or with the behavior of network-attached computers.
+                            A security administrator is a specialist in computer and network security, including the
+                            administration of security devices such as firewalls, as well as consulting on general
+                            security measures. <br> <br>
+
+                            A <b>web administrator</b> maintains web server services (such as IIS or Apache) that allow
+                            for
+                            internal or external access to web sites. Tasks include managing multiple sites,
+                            administering security, and configuring necessary components and software. Responsibilities
+                            may also include software change management. <br> <br>
+
+                            <b>Technical support</b> staff respond to individual users' difficulties with computer
+                            systems, provide instructions and sometimes training, and diagnose and solve common problems. <br>
+                            <br>
+
+                            A <b>computer operator</b> performs routine maintenance and upkeep, such as changing backup tapes
+                            or replacing failed drives in a RAID array. Such tasks usually require physical presence in
+                            the room with the computer; and while less skilled than says admin tasks require a similar
+                            level of trust, since the operator has access to possibly sensitive data.
+                            <br><br><br>
+
+                            <a href="quiz/lesson1/index.html"><button class="button"><span>QUIZ </span></button></a>
+
+                        </p>
+                        
+                        <br> <br> <br> <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
